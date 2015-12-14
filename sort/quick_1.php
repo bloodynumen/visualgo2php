@@ -2,7 +2,7 @@
 
 $list = [];
 
-function quick($left = 0, $right = 0)
+function quick($list, $left = 0, $right = 0)
 {
     if ($left >= $right)
     {
